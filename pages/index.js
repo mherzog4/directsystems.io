@@ -1,15 +1,19 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Features from './features'
+import Script from 'next/script'
+
 
 export default function Home() {
   return (
     <div className={styles.container}>
+      
       <Head>
         <title>Directystems.io</title>
         <meta name="description" content="Directsystems.io" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
 
       <main className={styles.main}>
         <h1 className={styles.title}>
