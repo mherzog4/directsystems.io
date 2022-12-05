@@ -7,7 +7,7 @@ import IframeResizer from 'iframe-resizer-react'
 import Contact from './contact'
 import Section from './section'
 import CTA from './CTA'
-import Footer from './footer'
+
 
 
 export default function Home() {
