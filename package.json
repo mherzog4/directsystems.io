@@ -11,7 +11,7 @@
     "cypress:headless": "cypress run",
     "e2e": "start-server-and-test start http://localhost:3000 cypress",
     "e2e:headless": "start-server-and-test start http://localhost:3000 cypress:headless",
-    "test": "jest --watch",
+    "test": "jest --watchALL --verbose",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
