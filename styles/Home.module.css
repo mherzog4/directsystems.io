@@ -10,15 +10,19 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: whitesmoke;
+  color: black;
 }
 
 .footer {
+  background-color: white;
   display: flex;
   flex: 1;
   padding: 2rem 0;
   border-top: 1px solid #eaeaea;
   justify-content: center;
   align-items: center;
+  
 }
 
 .footer a {
@@ -26,11 +30,13 @@
   justify-content: center;
   align-items: center;
   flex-grow: 1;
+  color: black
 }
 
 .title a {
   color: #0070f3;
   text-decoration: none;
+  
 }
 
 .title a:hover,
