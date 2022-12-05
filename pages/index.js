@@ -3,6 +3,8 @@ import styles from '../styles/Home.module.css'
 import Features from './features'
 import Script from 'next/script'
 import Navbar from './Navbar'
+import IframeResizer from 'iframe-resizer-react'
+
 
 
 export default function Home() {
@@ -62,12 +64,15 @@ export default function Home() {
       </main>
 
       <Features >
-        
+    
       </Features>
+
+      <IframeResizer src="https://embed.testimonial.to/w/mattherzog-testimonials?theme=light&card=base&showSearch=on&randomize=on&hideDate=on"  style={{ width: "1px", minWidth: "100%" }} />
+
 
       <footer className={styles.footer}>
         <a
-          href="https://www.mattherzog.me"
+          href="https://mattherzog.me/"
           target="_blank"
           rel="noopener noreferrer"
         >

@@ -19,8 +19,10 @@
     "@headlessui/react": "^1.7.4",
     "@heroicons/react": "^2.0.13",
     "@types/jest": "^29.2.3",
+    "iframe-resizer-react": "^1.1.0",
     "next": "13.0.5",
     "react": "18.2.0",
+    "react-calendly": "^4.1.0",
     "react-dom": "18.2.0"
   },
   "devDependencies": {
