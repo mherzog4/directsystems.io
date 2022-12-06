@@ -16,7 +16,7 @@ const features = [
   {
     name: 'Integrate Applications',
     description:
-      'Share data across all of your applications to reduce manual data entry and have a single source of mission critical data.',
+      'Share data across all of your applications to reduce manual data entry and have a single source of mission critical data',
     icon: BoltIcon,
   },
   {
@@ -34,7 +34,7 @@ export default function Example() {
         <div className="sm:text-center">
           <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">A better way to go to market</p>
           <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-gray-600">
-          We help construct the technical systems required for you to scale.
+          We help construct the technical systems required for you to scale
           </p>
         </div>
 
