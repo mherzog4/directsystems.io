@@ -34,8 +34,7 @@ export default function Example() {
         <div className="sm:text-center">
           <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">A better way to go to market</p>
           <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-gray-600">
-            Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam voluptatum cupiditate veritatis in
-            accusamus quisquam.
+          We help construct the technical systems required for you to scale.
           </p>
         </div>
 
