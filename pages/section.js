@@ -1,29 +1,29 @@
-import { BoltIcon, DevicePhoneMobileIcon, GlobeAltIcon, ScaleIcon } from '@heroicons/react/24/outline'
+import { ArrowPathIcon, BeakerIcon, BoltIcon, ChartBarIcon, DevicePhoneMobileIcon, GlobeAltIcon, ScaleIcon } from '@heroicons/react/24/outline'
 
 const features = [
   {
-    name: 'Competitive exchange rates',
+    name: 'Automate Marketing and Sales Systems',
     description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
-    icon: GlobeAltIcon,
+      'Book meetings on autopilot leveraging tools and systems and close more deals',
+      icon: ArrowPathIcon,
   },
   {
-    name: 'No hidden fees',
+    name: 'App Development',
     description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
-    icon: ScaleIcon,
+      'Go to market quickly and effectively through code or low code development',
+    icon: BeakerIcon,
   },
   {
-    name: 'Transfers are instant',
+    name: 'Integrate Applications',
     description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+      'Share data across all of your applications to reduce manual data entry and have a single source of mission critical data.',
     icon: BoltIcon,
   },
   {
-    name: 'Mobile notifications',
+    name: 'Content Strategy',
     description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
-    icon: DevicePhoneMobileIcon,
+      'Leverge social channels to bring your business inbound leads on a consistent basis',
+    icon: ChartBarIcon,
   },
 ]
 
@@ -32,8 +32,7 @@ export default function Example() {
     <div className="bg-white py-24 sm:py-32 lg:py-40">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="sm:text-center">
-          <h2 className="text-lg font-semibold leading-8 text-indigo-600">Transactions</h2>
-          <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">A better way to send money</p>
+          <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">A better way to go to market</p>
           <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-gray-600">
             Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam voluptatum cupiditate veritatis in
             accusamus quisquam.
